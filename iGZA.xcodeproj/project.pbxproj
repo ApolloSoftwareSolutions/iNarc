@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42CD9B0E1419B90C0039FE07 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42CD9B0D1419B90C0039FE07 /* UIKit.framework */; };
+		42CD9B101419B90C0039FE07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42CD9B0F1419B90C0039FE07 /* Foundation.framework */; };
+		42CD9B161419B90D0039FE07 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 42CD9B141419B90D0039FE07 /* InfoPlist.strings */; };
+		42CD9B181419B90D0039FE07 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CD9B171419B90D0039FE07 /* main.m */; };
+		42CD9B1C1419B90D0039FE07 /* iGZAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CD9B1B1419B90D0039FE07 /* iGZAAppDelegate.m */; };
+		42CD9B1F1419B90D0039FE07 /* iGZAFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CD9B1E1419B90D0039FE07 /* iGZAFirstViewController.m */; };
+		42CD9B211419B90D0039FE07 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 42CD9B201419B90D0039FE07 /* first.png */; };
+		42CD9B231419B90D0039FE07 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42CD9B221419B90D0039FE07 /* first@2x.png */; };
+		42CD9B261419B90D0039FE07 /* iGZASecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CD9B251419B90D0039FE07 /* iGZASecondViewController.m */; };
+		42CD9B281419B90D0039FE07 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 42CD9B271419B90D0039FE07 /* second.png */; };
+		42CD9B2A1419B90D0039FE07 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42CD9B291419B90D0039FE07 /* second@2x.png */; };
+		42CD9B2D1419B90D0039FE07 /* iGZAFirstViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42CD9B2B1419B90D0039FE07 /* iGZAFirstViewController_iPhone.xib */; };
+		42CD9B301419B90D0039FE07 /* iGZAFirstViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42CD9B2E1419B90D0039FE07 /* iGZAFirstViewController_iPad.xib */; };
+		42CD9B331419B90D0039FE07 /* iGZASecondViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42CD9B311419B90D0039FE07 /* iGZASecondViewController_iPhone.xib */; };
+		42CD9B361419B90D0039FE07 /* iGZASecondViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42CD9B341419B90D0039FE07 /* iGZASecondViewController_iPad.xib */; };
+		42CD9B3E1419B90D0039FE07 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42CD9B3D1419B90D0039FE07 /* SenTestingKit.framework */; };
+		42CD9B3F1419B90D0039FE07 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42CD9B0D1419B90C0039FE07 /* UIKit.framework */; };
+		42CD9B401419B90D0039FE07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42CD9B0F1419B90C0039FE07 /* Foundation.framework */; };
+		42CD9B481419B90D0039FE07 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 42CD9B461419B90D0039FE07 /* InfoPlist.strings */; };
+		42CD9B4B1419B90D0039FE07 /* iGZATests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CD9B4A1419B90D0039FE07 /* iGZATests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42CD9B411419B90D0039FE07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42CD9B001419B90C0039FE07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42CD9B081419B90C0039FE07;
+			remoteInfo = iGZA;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		42CD9B091419B90C0039FE07 /* iGZA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iGZA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42CD9B0D1419B90C0039FE07 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		42CD9B0F1419B90C0039FE07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		42CD9B131419B90D0039FE07 /* iGZA-Info.plist */ = {isa = PBXFileReference; path = "iGZA-Info.plist"; sourceTree = "<group>"; };
+		42CD9B151419B90D0039FE07 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		42CD9B171419B90D0039FE07 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		42CD9B191419B90D0039FE07 /* iGZA-Prefix.pch */ = {isa = PBXFileReference; path = "iGZA-Prefix.pch"; sourceTree = "<group>"; };
+		42CD9B1A1419B90D0039FE07 /* iGZAAppDelegate.h */ = {isa = PBXFileReference; path = iGZAAppDelegate.h; sourceTree = "<group>"; };
+		42CD9B1B1419B90D0039FE07 /* iGZAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iGZAAppDelegate.m; sourceTree = "<group>"; };
+		42CD9B1D1419B90D0039FE07 /* iGZAFirstViewController.h */ = {isa = PBXFileReference; path = iGZAFirstViewController.h; sourceTree = "<group>"; };
+		42CD9B1E1419B90D0039FE07 /* iGZAFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iGZAFirstViewController.m; sourceTree = "<group>"; };
+		42CD9B201419B90D0039FE07 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		42CD9B221419B90D0039FE07 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		42CD9B241419B90D0039FE07 /* iGZASecondViewController.h */ = {isa = PBXFileReference; path = iGZASecondViewController.h; sourceTree = "<group>"; };
+		42CD9B251419B90D0039FE07 /* iGZASecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iGZASecondViewController.m; sourceTree = "<group>"; };
+		42CD9B271419B90D0039FE07 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		42CD9B291419B90D0039FE07 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		42CD9B2C1419B90D0039FE07 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/iGZAFirstViewController_iPhone.xib; sourceTree = "<group>"; };
+		42CD9B2F1419B90D0039FE07 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/iGZAFirstViewController_iPad.xib; sourceTree = "<group>"; };
+		42CD9B321419B90D0039FE07 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/iGZASecondViewController_iPhone.xib; sourceTree = "<group>"; };
+		42CD9B351419B90D0039FE07 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/iGZASecondViewController_iPad.xib; sourceTree = "<group>"; };
+		42CD9B3C1419B90D0039FE07 /* iGZATests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iGZATests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42CD9B3D1419B90D0039FE07 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		42CD9B451419B90D0039FE07 /* iGZATests-Info.plist */ = {isa = PBXFileReference; path = "iGZATests-Info.plist"; sourceTree = "<group>"; };
+		42CD9B471419B90D0039FE07 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		42CD9B491419B90D0039FE07 /* iGZATests.h */ = {isa = PBXFileReference; path = iGZATests.h; sourceTree = "<group>"; };
+		42CD9B4A1419B90D0039FE07 /* iGZATests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iGZATests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42CD9B061419B90C0039FE07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42CD9B0E1419B90C0039FE07 /* UIKit.framework in Frameworks */,
+				42CD9B101419B90C0039FE07 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42CD9B381419B90D0039FE07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42CD9B3E1419B90D0039FE07 /* SenTestingKit.framework in Frameworks */,
+				42CD9B3F1419B90D0039FE07 /* UIKit.framework in Frameworks */,
+				42CD9B401419B90D0039FE07 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42CD9AFE1419B90C0039FE07 = {
+			isa = PBXGroup;
+			children = (
+				42CD9B111419B90C0039FE07 /* iGZA */,
+				42CD9B431419B90D0039FE07 /* iGZATests */,
+				42CD9B0C1419B90C0039FE07 /* Frameworks */,
+				42CD9B0A1419B90C0039FE07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42CD9B0A1419B90C0039FE07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42CD9B091419B90C0039FE07 /* iGZA.app */,
+				42CD9B3C1419B90D0039FE07 /* iGZATests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42CD9B0C1419B90C0039FE07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42CD9B0D1419B90C0039FE07 /* UIKit.framework */,
+				42CD9B0F1419B90C0039FE07 /* Foundation.framework */,
+				42CD9B3D1419B90D0039FE07 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		42CD9B111419B90C0039FE07 /* iGZA */ = {
+			isa = PBXGroup;
+			children = (
+				42CD9B1A1419B90D0039FE07 /* iGZAAppDelegate.h */,
+				42CD9B1B1419B90D0039FE07 /* iGZAAppDelegate.m */,
+				42CD9B1D1419B90D0039FE07 /* iGZAFirstViewController.h */,
+				42CD9B1E1419B90D0039FE07 /* iGZAFirstViewController.m */,
+				42CD9B201419B90D0039FE07 /* first.png */,
+				42CD9B221419B90D0039FE07 /* first@2x.png */,
+				42CD9B241419B90D0039FE07 /* iGZASecondViewController.h */,
+				42CD9B251419B90D0039FE07 /* iGZASecondViewController.m */,
+				42CD9B271419B90D0039FE07 /* second.png */,
+				42CD9B291419B90D0039FE07 /* second@2x.png */,
+				42CD9B2B1419B90D0039FE07 /* iGZAFirstViewController_iPhone.xib */,
+				42CD9B2E1419B90D0039FE07 /* iGZAFirstViewController_iPad.xib */,
+				42CD9B311419B90D0039FE07 /* iGZASecondViewController_iPhone.xib */,
+				42CD9B341419B90D0039FE07 /* iGZASecondViewController_iPad.xib */,
+				42CD9B121419B90D0039FE07 /* Supporting Files */,
+			);
+			path = iGZA;
+			sourceTree = "<group>";
+		};
+		42CD9B121419B90D0039FE07 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42CD9B131419B90D0039FE07 /* iGZA-Info.plist */,
+				42CD9B141419B90D0039FE07 /* InfoPlist.strings */,
+				42CD9B171419B90D0039FE07 /* main.m */,
+				42CD9B191419B90D0039FE07 /* iGZA-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		42CD9B431419B90D0039FE07 /* iGZATests */ = {
+			isa = PBXGroup;
+			children = (
+				42CD9B491419B90D0039FE07 /* iGZATests.h */,
+				42CD9B4A1419B90D0039FE07 /* iGZATests.m */,
+				42CD9B441419B90D0039FE07 /* Supporting Files */,
+			);
+			path = iGZATests;
+			sourceTree = "<group>";
+		};
+		42CD9B441419B90D0039FE07 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42CD9B451419B90D0039FE07 /* iGZATests-Info.plist */,
+				42CD9B461419B90D0039FE07 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42CD9B081419B90C0039FE07 /* iGZA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42CD9B4E1419B90D0039FE07 /* Build configuration list for PBXNativeTarget "iGZA" */;
+			buildPhases = (
+				42CD9B051419B90C0039FE07 /* Sources */,
+				42CD9B061419B90C0039FE07 /* Frameworks */,
+				42CD9B071419B90C0039FE07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iGZA;
+			productName = iGZA;
+			productReference = 42CD9B091419B90C0039FE07 /* iGZA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42CD9B3B1419B90D0039FE07 /* iGZATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42CD9B511419B90D0039FE07 /* Build configuration list for PBXNativeTarget "iGZATests" */;
+			buildPhases = (
+				42CD9B371419B90D0039FE07 /* Sources */,
+				42CD9B381419B90D0039FE07 /* Frameworks */,
+				42CD9B391419B90D0039FE07 /* Resources */,
+				42CD9B3A1419B90D0039FE07 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42CD9B421419B90D0039FE07 /* PBXTargetDependency */,
+			);
+			name = iGZATests;
+			productName = iGZATests;
+			productReference = 42CD9B3C1419B90D0039FE07 /* iGZATests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42CD9B001419B90C0039FE07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = USACE;
+			};
+			buildConfigurationList = 42CD9B031419B90C0039FE07 /* Build configuration list for PBXProject "iGZA" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 42CD9AFE1419B90C0039FE07;
+			productRefGroup = 42CD9B0A1419B90C0039FE07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42CD9B081419B90C0039FE07 /* iGZA */,
+				42CD9B3B1419B90D0039FE07 /* iGZATests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42CD9B071419B90C0039FE07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42CD9B161419B90D0039FE07 /* InfoPlist.strings in Resources */,
+				42CD9B211419B90D0039FE07 /* first.png in Resources */,
+				42CD9B231419B90D0039FE07 /* first@2x.png in Resources */,
+				42CD9B281419B90D0039FE07 /* second.png in Resources */,
+				42CD9B2A1419B90D0039FE07 /* second@2x.png in Resources */,
+				42CD9B2D1419B90D0039FE07 /* iGZAFirstViewController_iPhone.xib in Resources */,
+				42CD9B301419B90D0039FE07 /* iGZAFirstViewController_iPad.xib in Resources */,
+				42CD9B331419B90D0039FE07 /* iGZASecondViewController_iPhone.xib in Resources */,
+				42CD9B361419B90D0039FE07 /* iGZASecondViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42CD9B391419B90D0039FE07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42CD9B481419B90D0039FE07 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		42CD9B3A1419B90D0039FE07 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42CD9B051419B90C0039FE07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42CD9B181419B90D0039FE07 /* main.m in Sources */,
+				42CD9B1C1419B90D0039FE07 /* iGZAAppDelegate.m in Sources */,
+				42CD9B1F1419B90D0039FE07 /* iGZAFirstViewController.m in Sources */,
+				42CD9B261419B90D0039FE07 /* iGZASecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42CD9B371419B90D0039FE07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42CD9B4B1419B90D0039FE07 /* iGZATests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42CD9B421419B90D0039FE07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42CD9B081419B90C0039FE07 /* iGZA */;
+			targetProxy = 42CD9B411419B90D0039FE07 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		42CD9B141419B90D0039FE07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42CD9B151419B90D0039FE07 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		42CD9B2B1419B90D0039FE07 /* iGZAFirstViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42CD9B2C1419B90D0039FE07 /* en */,
+			);
+			name = iGZAFirstViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		42CD9B2E1419B90D0039FE07 /* iGZAFirstViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42CD9B2F1419B90D0039FE07 /* en */,
+			);
+			name = iGZAFirstViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		42CD9B311419B90D0039FE07 /* iGZASecondViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42CD9B321419B90D0039FE07 /* en */,
+			);
+			name = iGZASecondViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		42CD9B341419B90D0039FE07 /* iGZASecondViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42CD9B351419B90D0039FE07 /* en */,
+			);
+			name = iGZASecondViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		42CD9B461419B90D0039FE07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42CD9B471419B90D0039FE07 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42CD9B4C1419B90D0039FE07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42CD9B4D1419B90D0039FE07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42CD9B4F1419B90D0039FE07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iGZA/iGZA-Prefix.pch";
+				INFOPLIST_FILE = "iGZA/iGZA-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		42CD9B501419B90D0039FE07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iGZA/iGZA-Prefix.pch";
+				INFOPLIST_FILE = "iGZA/iGZA-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		42CD9B521419B90D0039FE07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iGZA.app/iGZA";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iGZA/iGZA-Prefix.pch";
+				INFOPLIST_FILE = "iGZATests/iGZATests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		42CD9B531419B90D0039FE07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iGZA.app/iGZA";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iGZA/iGZA-Prefix.pch";
+				INFOPLIST_FILE = "iGZATests/iGZATests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42CD9B031419B90C0039FE07 /* Build configuration list for PBXProject "iGZA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42CD9B4C1419B90D0039FE07 /* Debug */,
+				42CD9B4D1419B90D0039FE07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42CD9B4E1419B90D0039FE07 /* Build configuration list for PBXNativeTarget "iGZA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42CD9B4F1419B90D0039FE07 /* Debug */,
+				42CD9B501419B90D0039FE07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		42CD9B511419B90D0039FE07 /* Build configuration list for PBXNativeTarget "iGZATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42CD9B521419B90D0039FE07 /* Debug */,
+				42CD9B531419B90D0039FE07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42CD9B001419B90C0039FE07 /* Project object */;
+}
